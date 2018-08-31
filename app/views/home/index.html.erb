@@ -1,0 +1,33 @@
+<h1>Hello World!</h1>
+
+<button><%= link_to 'Print Users Doc', home_index_path(format: 'pdf') %></button>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Address</th>
+      <th>Phone Number</th>
+      <th>Gender</th>
+      <th>Team</th>
+      <th>Funny Name</th>
+      <th>Job</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.name %></td>
+        <td><%= user.email %></td>
+        <td><%= user.address %></td>
+        <td><%= user.phone_number %></td>
+        <td><%= user.gender %></td>
+        <td><%= user.team %></td>
+        <td><%= user.funny_name %></td>
+        <td><%= user.job %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

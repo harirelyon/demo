@@ -1,0 +1,16 @@
+report.start_new_page
+report.page.values printed_at: Time.now
+@users.each do |user|
+  report.page.list(:list).add_row do |row|
+    row.item(:col1).value user.name
+    row.item(:col2).value user.email
+    row.item(:col3).value user.address
+    row.item(:col4).value user.phone_number
+    row.item(:col5).value user.gender
+    row.item(:col6).value user.team
+    row.item(:col7).value user.funny_name
+    row.item(:col8).value user.job
+  end
+end
+
+report.set_layout tlf: 'reports/index', layout_options: { default: true }
