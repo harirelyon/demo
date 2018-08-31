@@ -6,9 +6,6 @@ Open source reporting tool
 ## Tools
 [ThinReport Generator](https://github.com/thinreports/thinreports-editor/releases "Tool")
 
-## Output
-Print the top five trending hashtags. In case of tie between any two hashtags, print them in lexicographical order in a new line.
-
 ## Community
 [Google Group](https://groups.google.com/forum/#!forum/thinreports "Google Group")
 
