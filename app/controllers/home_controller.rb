@@ -7,7 +7,8 @@ class HomeController < ApplicationController
 
     respond_to do |format|
       format.html
-      format.pdf { render_pdf(@users) }
+      # format.pdf { render_pdf(@users) }
+      format.pdf { render_list_pdf(@users) }
     end
   end
 
@@ -67,6 +68,26 @@ class HomeController < ApplicationController
                    total_deductions_1: user.total_deductions,
                    net_salary_1: user.net_salary,
                    in_words_1: user.in_words
+      end
+    end
+
+    send_data report.generate, filename: 'users.pdf',
+                               type: 'application/pdf',
+                               disposition: 'attachment'
+  end
+
+  def render_list_pdf(users)
+    report = Thinreports::Report.new layout: File.join(Rails.root,
+                                                       'app',
+                                                       'reports',
+                                                       'advanceListExperiment.tlf')
+
+    users.each do |user|
+      report.start_new_page do |page|
+        page.list do |list|
+          list.header { |header| header.item(:company_name).value('Relyon') }
+          user.attributes.each { |key, value| list.add_row head: key, value: value }
+        end
       end
     end
 
