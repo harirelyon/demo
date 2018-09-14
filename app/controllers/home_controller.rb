@@ -8,7 +8,8 @@ class HomeController < ApplicationController
     respond_to do |format|
       format.html
       # format.pdf { render_pdf(@users) }
-      format.pdf { render_list_pdf(@users) }
+      # format.pdf { render_list_pdf(@users) }
+      format.pdf { render_test_payslip_pdf(@users) }
     end
   end
 
@@ -87,6 +88,50 @@ class HomeController < ApplicationController
         page.list do |list|
           list.header { |header| header.item(:company_name).value('Relyon') }
           user.attributes.each { |key, value| list.add_row head: key, value: value }
+        end
+      end
+    end
+
+    send_data report.generate, filename: 'users.pdf',
+                               type: 'application/pdf',
+                               disposition: 'attachment'
+  end
+
+  def render_test_payslip_pdf(users)
+    report = Thinreports::Report.new layout: File.join(Rails.root,
+                                                       'app',
+                                                       'reports',
+                                                       'testPaySlip.tlf')
+    users.each do |user|
+      report.start_new_page do |page|
+        page.list do |list|
+          list.header do |header|
+            header.item(:company_name).value('Relyon')
+            header.item(:salarymonth).value('Jul/2018')
+            header.item(:emp_name).value(user.emp_name)
+            header.item(:designation).value(user.designation)
+            header.item(:ref_no).value(user.ref_no)
+            header.item(:paymonth).value('Aug/2018')
+            header.item(:presentdays).value(user.pay_days)
+          end
+
+          list.add_row do |row|
+            row.values total_earnings: user.total_earnings,
+                      total_deductions: user.total_deductions,
+                      net_salary: user.net_salary
+          end
+        end
+
+        user.attributes.each do |key, value|
+          page.list(:earnings).add_row do |earningRow|
+            earningRow.values head: key,
+                              value: value || 'N/A'
+          end
+
+          page.list(:deduction).add_row do |deductionRow|
+            deductionRow.values head: key,
+                              value: value || 'N/A'
+          end
         end
       end
     end
