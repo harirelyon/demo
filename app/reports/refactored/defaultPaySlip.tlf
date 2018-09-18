@@ -1,0 +1,1187 @@
+{
+  "version": "0.10.0",
+  "items": [
+    {
+      "id": "",
+      "type": "line",
+      "display": true,
+      "description": "",
+      "style": {
+        "border-color": "#000000",
+        "border-width": 1,
+        "border-style": "solid"
+      },
+      "x1": 20,
+      "y1": 48.8,
+      "x2": 20,
+      "y2": 50
+    },
+    {
+      "id": "default",
+      "type": "list",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 20,
+      "width": 555.3,
+      "height": 801.8,
+      "header": {
+        "enabled": true,
+        "height": 98.8,
+        "translate": {
+          "x": 0,
+          "y": -201.3
+        },
+        "items": [
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 277,
+            "y": 243.8,
+            "width": 44.9,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Form IX"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 265,
+            "y": 256.3,
+            "width": 81.2,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "[See Rule 28(2)]"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 275,
+            "y": 271.3,
+            "width": 51.6,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Wage Slip"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 45,
+            "y": 281.3,
+            "width": 34,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Name:"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 45,
+            "y": 301.3,
+            "width": 64.6,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Designation:"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 400,
+            "y": 281.3,
+            "width": 65.9,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Month/Year:"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 400,
+            "y": 301.3,
+            "width": 70.7,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Present Days:"
+            ]
+          },
+          {
+            "id": "",
+            "type": "line",
+            "display": true,
+            "description": "",
+            "style": {
+              "border-color": "#000000",
+              "border-width": 1,
+              "border-style": "solid"
+            },
+            "x1": 20,
+            "y1": 240,
+            "x2": 575.2,
+            "y2": 240
+          },
+          {
+            "id": "company_name",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 20,
+            "y": 222.5,
+            "width": 192,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 335,
+            "y": 221.3,
+            "width": 90.9,
+            "height": 20.2,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Print Date:"
+            ]
+          },
+          {
+            "id": "salarymonth",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 424.5,
+            "y": 223.8,
+            "width": 150.7,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 255,
+            "y": 301.4,
+            "width": 42.6,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Ref. No:"
+            ]
+          },
+          {
+            "id": "ref_no",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 300,
+            "y": 301.3,
+            "width": 62.5,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "emp_name",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 85,
+            "y": 283.8,
+            "width": 126.3,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "designation",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 125,
+            "y": 301.3,
+            "width": 85,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "paymonth",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 474.5,
+            "y": 283.8,
+            "width": 100.7,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "presentdays",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 489.5,
+            "y": 303.8,
+            "width": 85.7,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          }
+        ]
+      },
+      "detail": {
+        "height": 217.5,
+        "translate": {
+          "x": 0,
+          "y": -158.7
+        },
+        "items": [
+          {
+            "id": "",
+            "type": "rect",
+            "display": true,
+            "description": "",
+            "x": 20,
+            "y": 277.5,
+            "width": 555.2,
+            "height": 186.3,
+            "style": {
+              "border-color": "#000000",
+              "border-width": 1,
+              "border-style": "solid",
+              "fill-color": "#FFFFFF"
+            },
+            "border-radius": 0
+          },
+          {
+            "id": "",
+            "type": "line",
+            "display": true,
+            "description": "",
+            "style": {
+              "border-color": "#000000",
+              "border-width": 1,
+              "border-style": "solid"
+            },
+            "x1": 20,
+            "y1": 367.5,
+            "x2": 575.2,
+            "y2": 366.3
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 25,
+            "y": 278.8,
+            "width": 46.6,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Earnings"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 25,
+            "y": 367.5,
+            "width": 57.3,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Deductions"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 20,
+            "y": 466.3,
+            "width": 75.8,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Total Earnings"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 210,
+            "y": 468.7,
+            "width": 86.5,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Total Deductions"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 435,
+            "y": 467.5,
+            "width": 54.3,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Net Salary"
+            ]
+          },
+          {
+            "id": "total_earnings",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 125,
+            "y": 466.3,
+            "width": 63.7,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "right",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "total_deductions",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 325,
+            "y": 467.5,
+            "width": 61.3,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "right",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "net_salary",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 510.7,
+            "y": 467.5,
+            "width": 63.8,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "right",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          }
+        ]
+      },
+      "page-footer": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": 0,
+          "y": 2.6
+        },
+        "items": []
+      },
+      "footer": {
+        "enabled": true,
+        "height": 42.7,
+        "translate": {
+          "x": 0,
+          "y": -39.6
+        },
+        "items": [
+          {
+            "id": "",
+            "type": "line",
+            "display": true,
+            "description": "",
+            "style": {
+              "border-color": "#000000",
+              "border-width": 1,
+              "border-style": "dashed"
+            },
+            "x1": 20,
+            "y1": 378.1,
+            "x2": 575.2,
+            "y2": 378.1
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 20,
+            "y": 404.6,
+            "width": 110.3,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Authorised Signatory"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 463.9,
+            "y": 404.6,
+            "width": 111.4,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "right",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [
+                "bold"
+              ]
+            },
+            "texts": [
+              "Employee's Signature"
+            ]
+          }
+        ]
+      },
+      "content-height": 703,
+      "auto-page-break": true
+    },
+    {
+      "id": "earnings",
+      "type": "list",
+      "display": true,
+      "description": "",
+      "x": 25,
+      "y": 135,
+      "width": 550.2,
+      "height": 72.5,
+      "header": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": -43.2,
+          "y": -472.5
+        },
+        "items": []
+      },
+      "detail": {
+        "height": 14,
+        "translate": {
+          "x": -43.2,
+          "y": -480
+        },
+        "items": [
+          {
+            "id": "head",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 69.5,
+            "y": 615,
+            "width": 75.7,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "value",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 158.2,
+            "y": 615,
+            "width": 85,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "right",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          }
+        ]
+      },
+      "page-footer": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": -43.2,
+          "y": -473.5
+        },
+        "items": []
+      },
+      "footer": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": -43.2,
+          "y": -479.1
+        },
+        "items": []
+      },
+      "content-height": 72.5,
+      "auto-page-break": false
+    },
+    {
+      "id": "deduction",
+      "type": "list",
+      "display": true,
+      "description": "",
+      "x": 25,
+      "y": 220,
+      "width": 550.2,
+      "height": 82.5,
+      "header": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": -10.7,
+          "y": -341.3
+        },
+        "items": []
+      },
+      "detail": {
+        "height": 14,
+        "translate": {
+          "x": -10.7,
+          "y": -369.3
+        },
+        "items": [
+          {
+            "id": "head",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 37,
+            "y": 589.3,
+            "width": 74.4,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "value",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 125.7,
+            "y": 589.3,
+            "width": 85,
+            "height": 14,
+            "style": {
+              "font-family": [
+                "Times New Roman"
+              ],
+              "font-size": 12,
+              "color": "#000000",
+              "text-align": "right",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          }
+        ]
+      },
+      "page-footer": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": -10.7,
+          "y": -383.3
+        },
+        "items": []
+      },
+      "footer": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": -10.7,
+          "y": -404.3
+        },
+        "items": []
+      },
+      "content-height": 82.5,
+      "auto-page-break": false
+    }
+  ],
+  "state": {
+    "layout-guides": [
+      {
+        "type": "x",
+        "position": 100.7
+      },
+      {
+        "type": "x",
+        "position": 200.7
+      },
+      {
+        "type": "x",
+        "position": 112
+      },
+      {
+        "type": "y",
+        "position": 72.5
+      },
+      {
+        "type": "y",
+        "position": 403.8
+      },
+      {
+        "type": "y",
+        "position": 430
+      },
+      {
+        "type": "y",
+        "position": 451.3
+      }
+    ]
+  },
+  "title": "",
+  "report": {
+    "paper-type": "A4",
+    "orientation": "portrait",
+    "margin": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}

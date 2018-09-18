@@ -1,0 +1,179 @@
+{
+  "version": "0.10.0",
+  "items": [
+    {
+      "id": "default",
+      "type": "list",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 20,
+      "width": 555.2,
+      "height": 801.8,
+      "header": {
+        "enabled": true,
+        "height": 37.5,
+        "translate": {
+          "x": 0,
+          "y": 0
+        },
+        "items": [
+          {
+            "id": "company_name",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 225.7,
+            "y": 33.8,
+            "width": 146.2,
+            "height": 20.2,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          }
+        ]
+      },
+      "detail": {
+        "height": 25,
+        "translate": {
+          "x": 0,
+          "y": -122.9
+        },
+        "items": [
+          {
+            "id": "head",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 20,
+            "y": 181.3,
+            "width": 265.7,
+            "height": 20.2,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "value",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 300.7,
+            "y": 181.3,
+            "width": 274.5,
+            "height": 20.2,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "",
+            "type": "line",
+            "display": true,
+            "description": "",
+            "style": {
+              "border-color": "#000000",
+              "border-width": 1,
+              "border-style": "solid"
+            },
+            "x1": 20,
+            "y1": 202.9,
+            "x2": 575.2,
+            "y2": 202.9
+          }
+        ]
+      },
+      "page-footer": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": 0,
+          "y": -258.3
+        },
+        "items": []
+      },
+      "footer": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": 0,
+          "y": -378.6
+        },
+        "items": []
+      },
+      "content-height": 764.3,
+      "auto-page-break": true
+    }
+  ],
+  "state": {
+    "layout-guides": []
+  },
+  "title": "advanceListExprement",
+  "report": {
+    "paper-type": "A4",
+    "orientation": "portrait",
+    "margin": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}

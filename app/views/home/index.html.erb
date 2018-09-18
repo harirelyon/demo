@@ -1,6 +1,9 @@
-<h1>Hello World!</h1>
-
-<button><%= link_to 'Print Users Doc', home_index_path(format: 'pdf') %></button>
+<h1>Thinreports for SPP</h1>
+<div>
+  <button><%= link_to 'Default Payslip', home_index_path(report_type: 'default_payslip',format: 'pdf') %></button>
+  <button><%= link_to 'Detailed Payslip', home_index_path(report_type: 'detailed_payslip',format: 'pdf') %></button>
+  <button><%= link_to 'Employee Details', home_index_path(report_type: 'employee_details',format: 'pdf') %></button>
+</div>
 
 <table border="1">
   <thead>
