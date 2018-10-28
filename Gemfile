@@ -50,3 +50,10 @@ gem 'puma'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 gem 'thinreports-rails'
 gem 'pry-rails'
+
+group :development do
+  gem "capistrano", "~> 3.10", require: false
+  gem "capistrano-rails", "~> 1.4", require: false
+  gem 'capistrano-bundler', '~> 1.1', require: false
+  gem 'capistrano-rvm',   '~> 0.1', require: false
+end
